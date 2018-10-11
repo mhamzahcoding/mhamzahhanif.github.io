@@ -39,12 +39,16 @@ html, body {
 }
 
 .nav a:hover {
-    color: wheat;
+    color: skyblue;
     width: 100%;
 }
 
+.a:hover {
+    color: #fff;
+}
+
 a {
-    color: wheat;
+    color: skyblue;
 }
 
 .a {
@@ -76,21 +80,21 @@ a {
     position: absolute;
     right: 0;
     bottom: 0;
-    color: white;
+    color: skyblue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-transform: uppercase;
 }
 
 .home h1 {
     font-size: 70px;
-    border-bottom: 3px solid white;
+    border-bottom: 3px solid skyblue;
     padding-right: 50px;
 }
 
 .home h3 {
     font-size: 25px;
     padding: 5px 0;
-    color: white;
+    color: skyblue;
     opacity: 0.6;
 }
 
@@ -98,7 +102,7 @@ a {
     position: absolute;
     right: 0;
     top: 10px;
-    color: white;
+    color: skyblue;
     font-family: century;
 }
 
@@ -106,4 +110,39 @@ a {
     font-size: 18px;
     line-height: 25px;
     margin-bottom: 15px;
+}
+
+.project {
+    position: relative;
+    text-align: center;
+}
+
+.fab {
+    font-size: 50px;
+    margin: 10px;
+    color: skyblue;
+}
+
+.fab:hover {
+    color: #fff;
+  }
+
+.imgProject:hover {
+    border: 3px solid black;
+}
+
+.contact {
+    text-align: center;
+}
+
+.contactHead {
+    font-size: 50px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    font-size: larger;
+    opacity: .7;
+    text-align: center;
 }

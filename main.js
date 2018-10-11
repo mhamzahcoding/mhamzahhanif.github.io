@@ -1,14 +1,17 @@
-$('a').click(function(){
+$(document).ready(function(){
+
+    $('.b').click(function(){
+        $('.home').fadeOut()
+        $('.about').fadeIn('slow');
+    });
+
+    $('#.a').click(function(){
+        $('.about').fadeOut()
+        $('.home').fadeIn('slow');
+    });
+
+    $('a').click(function(){
     var selected = $(this);
     $('a').removeClass('active');
     $(selected).addClass('active');
 });
-
-    $("#aboutTab").click(function () {
-        $("#homePage").hide();
-        $("#aboutPage").show();
-    });
-    $("#homeTab").click(function () {
-        $("#homePage").show();
-        $("#aboutPage").hide();
-    });

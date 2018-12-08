@@ -114,7 +114,6 @@ a {
 
 .project {
     position: relative;
-    text-align: center;
 }
 
 .fab {
@@ -145,4 +144,10 @@ footer {
     font-size: larger;
     opacity: .7;
     text-align: center;
+}
+
+.imgProject {
+    float: left;
+    width: 100%;
+    padding: 5px;
 }

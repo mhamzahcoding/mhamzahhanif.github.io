@@ -14,4 +14,5 @@ $(document).ready(function(){
     var selected = $(this);
     $('a').removeClass('active');
     $(selected).addClass('active');
+    });
 });
